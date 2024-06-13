@@ -11,7 +11,6 @@ def test_program():
         assert filename in dir_files, f'Файл `{filename}` не найден.'
 
     try:
-        import program
     except Exception as e:
         assert False, (
             'Не удалось запустить `program.py`. '
